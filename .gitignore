@@ -1,0 +1,11 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+slprj/
+octave-workspace
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

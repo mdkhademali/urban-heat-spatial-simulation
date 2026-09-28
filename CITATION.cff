@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Spatial Simulation of Urban Heat Patterns Using Land Cover, Vegetation, and Built-Up Effects"
+type: software
+version: 1.0.0
+date-released: 2026-09-28
+license: MIT
+authors:
+  - family-names: Ali
+    given-names: Md Khadem
+    affiliation: "Department of Geography and Environment, National University, Bangladesh"
+repository-code: "https://github.com/mdkhademali/urban-heat-spatial-simulation"
+keywords:
+  - MATLAB
+  - urban heat island
+  - land surface temperature
+  - remote sensing
+  - GeoAI
+  - spatial modeling
+  - synthetic data
+abstract: >-
+  A self-contained MATLAB simulation of how vegetation, water bodies and built-up
+  surfaces shape land surface temperature in a synthetic urban landscape.
+  All data are synthetic; results are not satellite-derived.
