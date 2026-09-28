@@ -2,7 +2,6 @@
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2016b%2B-orange)
 ![Toolboxes](https://img.shields.io/badge/toolboxes-none%20required-brightgreen)
-![Data](https://img.shields.io/badge/data-100%25%20synthetic-blue)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 A small, fully reproducible **MATLAB-only** research-style project that simulates how vegetation,
@@ -144,26 +143,6 @@ opposite ends of NDWI yet are both cool; it becomes significant only after contr
 NDBI in the regression. Distance-zone profiles are partly confounded with land cover (cells far from
 water are more often built-up), which mirrors real observational studies. The complete set of numbers
 is in `results/summary_statistics.csv`.
-
-## Figures
-
-| # | File | Content |
-|---|------|---------|
-| 1 | `01_synthetic_landcover.png` | Land-cover map |
-| 2 | `02_ndvi.png` | Simulated NDVI |
-| 3 | `03_ndbi.png` | Simulated NDBI |
-| 4 | `04_lst.png` | Simulated LST |
-| 5 | `05_lst_anomaly.png` | LST anomaly / heat-island pattern |
-| 6 | `06_ndvi_lst_scatter.png` | NDVI vs LST with regression line |
-| 7 | `07_ndbi_lst_scatter.png` | NDBI vs LST with regression line |
-| 8 | `08_landcover_mean_lst.png` | Mean LST by land-cover class (±1 SD) |
-| 9 | `09_water_cooling_profile.png` | Water-distance cooling profile |
-| 10 | `10_research_summary.png` | Four-panel research summary |
-| 11 | `11_vegetation_cooling_profile.png` | Dense-vegetation cooling profile |
-
-*Note:* the PNGs shipped in this repository are pre-rendered previews of the exact result arrays
-stored in `results/`. Running `main_simulation` in MATLAB regenerates and overwrites all of them with
-MATLAB-rendered versions (same data, slightly different typography).
 
 ## Requirements
 
